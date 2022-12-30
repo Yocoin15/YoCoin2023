@@ -2,7 +2,7 @@
 Description=yocoin
 
 [Service]
-ExecStart=geth --mine --miner.threads 2 --networkid 100822 --gcmode=archive --miner.gasprice=0 --nodiscover --bootnodes "enode://34f0ec9ec186763c7b0160cb3973cce94db7f3343b7624bcaa0c1ed062ba7189ba7b7058bab96038e01bf9acdb6a727898e6bbd5e3ccd3da51ed811a37495d63@161.35.159.82:30310"
+ExecStart=geth --mine --miner.threads 2 --networkid 100822 --gcmode=archive --miner.gasprice=0 --nodiscover --bootnodes "enode://2317ce77ab8c8501427198368905c6c4c4b3d145c6c2d66c906f497fd43871f5f73ff0dcbe6b834fc6568b9ee2353e37f313e52354ea6c2c9d945f9dc31f5a7d@84.32.190.250:30303"
 WorkingDirectory=/etc/yocoin
 Restart=always
 

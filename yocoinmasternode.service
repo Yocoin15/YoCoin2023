@@ -11,3 +11,10 @@ openssl rand -hex 16 >> nodepassword.txt
 sudo cp yocoinmasternode.service /etc/systemd/system
 sudo systemctl enable yocoinmasternode.service
 sudo systemctl start yocoinmasternode.service
+
+
+
+
+geth --networkid 100822 --datadir node1/ init node1/genesis.json
+geth --networkid 100822 --datadir node2/ init node2/genesis.json
+geth --networkid 100822 --datadir node3/ init node3/genesis.json
