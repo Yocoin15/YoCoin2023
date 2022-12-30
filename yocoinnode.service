@@ -1,0 +1,10 @@
+[Unit]
+Description=yocoin
+
+[Service]
+ExecStart=geth --mine --miner.threads 2 --networkid 100822 --gcmode=archive --miner.gasprice=0 --nodiscover --bootnodes "enode://34f0ec9ec186763c7b0160cb3973cce94db7f3343b7624bcaa0c1ed062ba7189ba7b7058bab96038e01bf9acdb6a727898e6bbd5e3ccd3da51ed811a37495d63@161.35.159.82:30310"
+WorkingDirectory=/etc/yocoin
+Restart=always
+
+[Install]
+WantedBy=multi-user.target

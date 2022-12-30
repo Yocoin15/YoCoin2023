@@ -1,0 +1,1 @@
+geth --mine --miner.threads 2 --networkid 100822 --gcmode=archive --miner.gasprice=0 --nodiscover

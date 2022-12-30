@@ -1,0 +1,1 @@
+geth --mine --miner.threads 2 --ws.api "admin,eth,net,web3,txpool,clique,rpc,network,debug" --ws --ws.port 8546 --ws.origins "*" --http  --http.corsdomain "*" --http.api "admin,eth,net,web3,txpool,clique,rpc,debug,shh" --http.vhosts "*" --networkid 100822 --gcmode=archive  --miner.gasprice=0 --nodiscover 

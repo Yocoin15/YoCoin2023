@@ -1,0 +1,1 @@
+geth --networkid 100822 --nodiscover init genesis.json
